@@ -1,0 +1,64 @@
+# Operating Systems Laboratory
+
+# Generated and local files
+
+# Build artifacts
+
+*.o
+*.a
+*.so
+*.out
+*.bin
+*.img
+*.iso
+*.elf
+*.map
+
+# Build directories
+
+build/
+dist/
+
+# Debugging and temporary files
+
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Editor / IDE files
+
+.vscode/
+.idea/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+
+# OS-generated files
+
+.DS_Store
+Thumbs.db
+
+# Virtual machine / emulator output
+
+*.qcow2
+*.vdi
+*.vmdk
+
+# QEMU temporary files
+
+qemu.log
+
+# Local environment files
+
+.env
+.env.*
+
+# Temporary laboratory files
+
+tmp/
+temp/
+
