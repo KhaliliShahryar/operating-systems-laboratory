@@ -1,84 +1,65 @@
-# Lesson 0 – Operating System Foundations
+# Lesson 00 Laboratory
 
-## Objectives
+## Objective
 
-The purpose of this lesson is to build a solid conceptual foundation before studying individual operating system components. Instead of immediately focusing on processes, memory management, or scheduling, this lesson explains how an operating system fits into the complete computer system.
+This laboratory establishes the practical foundation for the Operating Systems Laboratory project.
 
-## Learning Outcomes
+The focus is preparing the engineering workflow and environment required for future operating system experiments.
 
-After completing this lesson, I can:
+---
 
-* Explain why operating systems exist.
-* Describe the relationship between hardware, firmware, the bootloader, the kernel, user space, libraries, and applications.
-* Explain the difference between user mode and kernel mode.
-* Describe the purpose of system calls.
-* Explain the Linux boot sequence at a high level.
-* Analyze a running Linux system using standard command-line tools.
-* Think about operating systems from an engineering and design perspective rather than only from an implementation perspective.
+## Activities
 
-## Laboratory Environment
+The main activities of this laboratory are:
 
-| Item             | Value                  |
-| ---------------- | ---------------------- |
-| Operating System | Ubuntu 24.04.4 LTS     |
-| Kernel           | Linux 7.0.0-28-generic |
-| Architecture     | x86-64                 |
-| CPU              | Intel® Core™ i5-5200U  |
-| Memory           | 4 GB RAM               |
-| Environment      | Ubuntu Virtual Machine |
+* Creating the project repository structure.
+* Configuring Git workflow.
+* Connecting local development with GitHub.
+* Establishing documentation practices.
+* Preparing the development environment.
 
-## Topics Covered
+---
 
-* What is an operating system?
-* Why operating systems exist.
-* Hardware and software responsibilities.
-* Firmware and the boot process.
-* Bootloader responsibilities.
-* Kernel initialization.
-* User space and kernel space.
-* CPU privilege levels.
-* System calls.
-* Process hierarchy.
-* The role of PID 1 (`systemd`).
-* Engineering thinking for operating system design.
+## Laboratory Method
 
-## Linux Investigation
+Each experiment follows this process:
 
-During this lesson, the following Linux tools and interfaces were used:
+```
+Preparation
+     |
+     v
+Execution
+     |
+     v
+Observation
+     |
+     v
+Documentation
+     |
+     v
+Commit
+```
 
-* `uname`
-* `lscpu`
-* `lsblk`
-* `free`
-* `mount`
-* `/proc`
-* `/boot`
-* `findmnt`
-* `ps`
-* `strace`
+---
 
-These tools were used to verify theoretical concepts by observing a real Linux system.
+## Expected Result
 
-## Key Experiments
+At the end of Lesson 00:
 
-* Investigated the Linux boot configuration.
-* Examined kernel boot parameters.
-* Identified the first user-space process (`systemd`).
-* Observed system calls using `strace`.
-* Explored the relationship between user applications and the kernel.
-* Investigated the organization of the Linux filesystem during boot.
+* the repository structure is established,
+* Git workflow is functional,
+* documentation standards are defined,
+* the project is ready for deeper OS development lessons.
 
-## Engineering Observations
+---
 
-A modern operating system is not simply a collection of features. It is an architecture that divides responsibilities among hardware, firmware, the kernel, libraries, and user applications. Understanding these responsibilities is essential before studying individual operating system mechanisms.
+## Next Lessons
 
-Rather than memorizing Linux-specific details, this lesson focused on understanding the design principles that are common to many operating systems.
+Future laboratories will move toward:
 
-## Key Takeaways
-
-Lesson 0 established the architectural framework that will be used throughout the Operating Systems Laboratory. Future chapters will build on this foundation by connecting each new concept to Linux implementation, operating system design decisions, and practical experiments.
-
-## Next Lesson
-
-**Chapter 1 – Processes**
+* system programming,
+* assembly language,
+* boot process,
+* kernel concepts,
+* hardware interaction.
 
